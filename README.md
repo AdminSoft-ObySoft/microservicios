@@ -132,6 +132,7 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
   `app.setGlobalPrefix('api');`
 
 ## Para configurar de manera global validator pipe, esta configuracion debe ir en main.ts
+```
   `app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
@@ -139,6 +140,7 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
       transform: true,
     })
   );`
+```
 
 ## Para convertir nuestra api a un microservicio
   `npm i --save @nestjs/microservices`
