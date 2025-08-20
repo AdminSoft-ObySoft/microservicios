@@ -98,25 +98,39 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 ## Librerias externas utiles
- ```npm i class-validator class-transformer```
+ ```
+ npm i class-validator class-transformer
+ ```
 
 ## Validar con esquema de variable
- ```npm i joi```
+ ```
+ npm i joi
+ ```
 
 ## Esquema de variable
- ```npm i dotenv```
+ ```
+ npm i dotenv
+ ```
 
 ## Instalar prisma
- ```npm i prisma --save-dev```
+ ```
+ npm i prisma --save-dev
+ ```
  
 ## Inicializar prisma
- ```npx prisma init```
+ ```
+ npx prisma init
+ ```
 
 ## Realizar la migracion en prisma
- ```npx prisma migrate dev --name init```
+ ```
+ npx prisma migrate dev --name init
+ ```
 
 ## Instalacion del prisma cliente
- ```npm install @prisma/client```
+ ```
+ npm install @prisma/client
+ ```
 
 ## configuracion del archivo .prettierrc 
 ```
@@ -131,7 +145,9 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 
 ## Para configurar mi prefijo global de rutas "api", esta configuracion debe ir en main.ts
-  ```app.setGlobalPrefix('api');```
+  ```
+  app.setGlobalPrefix('api');
+  ```
 
 ## Para configurar de manera global validator pipe, esta configuracion debe ir en main.ts
 ```
@@ -145,7 +161,9 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 ```
 
 ## Para convertir nuestra api a un microservicio
-  ```npm i --save @nestjs/microservices```
+  ```
+  npm i --save @nestjs/microservices
+  ```
 
   ## DEV
 
