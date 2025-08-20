@@ -142,3 +142,11 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 ## Para convertir nuestra api a un microservicio
   npm i --save @nestjs/microservices
+
+  ## DEV
+
+  1. Clonar el repositorio
+  2. Instalar dependencias
+  3. Crear archivo `.env` basado en el `env.template`
+  4. Ejecutar migración de prisma `npx prisma migrate dev`
+  5. Ejecutar `npm run start:dev`
